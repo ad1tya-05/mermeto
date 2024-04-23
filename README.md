@@ -32,3 +32,5 @@ Initial Discount Calculation:
 After defining the calculateDiscount function, the code iterates over all elements with the class .product-card and calls calculateDiscount for each of them. This ensures that the discount badges are initially calculated and displayed for all product cards.
 
 2.html work:
+
+This HTML code represents a product layout webpage with tab functionality for different product categories (Men, Women, Kids).
