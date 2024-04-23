@@ -34,3 +34,7 @@ After defining the calculateDiscount function, the code iterates over all elemen
 2.html work:
 
 This HTML code represents a product layout webpage with tab functionality for different product categories (Men, Women, Kids).
+
+3. TO RUN THIS PROJECT :
+   simply run it on vscode 
+
