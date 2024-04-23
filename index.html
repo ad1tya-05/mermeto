@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Product Layout</title>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+ <button class="tab-btn active-tab" data-tab="men">Men</button>
+ <button class="tab-btn active-tab" data-tab="women">Women</button>
+ <button class="tab-btn active-tab" data-tab="kids">Kids</button>
+ <div id="tab-content">
+ <!-- Men's products -->
+ <div class="product-card" data-tab="men">
+ <img class="product-image" src="https://www.realmenrealstyle.com/wp-content/uploads/2023/03/INVERTED-TRIANGLE-body-type.jpg" height="2" width="2" alt="Product">
+ <span class="badge">Sale</span>
+ <h2 class="product-title">Men's Clothes</h2>
+ <p class="vendor">Vendor Name</p>
+ <span class="price">Rs99</span>
+ <del class="compare-at-price">Rs199</del>
+ <button class="add-to-cart-btn">Add to cart</button>
+ </div>
+ <!-- Women's products -->
+ <div class="product-card" data-tab="women" style="display: none;">
+ <img class="product-image" src="https://img.freepik.com/free-vector/set-sketches-beautiful-diverse-female-fashion-outfits_1150-50902.jpg" alt="Product">
+ <span class="badge">New</span>
+ <h2 class="product-title">Women's Clothes</h2>
+ <p class="vendor">Vendor Name</p>
+ <span class="price">Rs129</span>
+ <del class="compare-at-price">Rs199</del>
+ <button class="add-to-cart-btn">Add to cart</button>
+ </div>
+ <!-- Kids' products -->
+ <div class="product-card" data-tab="kids" style="display: none;">
+ <img class="product-image" src="https://s7ap1.scene7.com/is/image/adityabirlafashion/20240119-SS242-Kids-Thumbnail" alt="Product">
+ <span class="badge">New</span>
+ <h2 class="product-title">Kids' Clothes</h2>
+ <p class="vendor">Vendor Name</p>
+ <span class="price">Rs29</span>
+ <del class="compare-at-price">Rs39</del>
+ <button class="add-to-cart-btn">Add to cart</button>
+ </div>
+ </div>
+ </div>
+ <script src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/multiProduct.json" async defer></script>
+ <script src="script.js"></script>
+</body>
+</html>
